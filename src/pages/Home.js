@@ -1,5 +1,10 @@
+import { Fragment } from "react";
+
 export const Home = () => {
     return (
-        <h1>Home Page</h1>
+        <Fragment>
+            <h1>Hello</h1>
+            <h2>My name is Mantas Kulikauskas</h2>
+        </Fragment>
     );
 }
