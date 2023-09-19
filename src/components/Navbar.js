@@ -2,8 +2,6 @@ import { Link } from "react-router-dom";
 import Switch from 'react-switch';
 import React from "react";
 
-import './Navbar.css';
-
 export const Navbar = ({themeToggle, theme}) => {
     return (
         <nav class="navbar navbar-expand-lg bg-body-tertiary">

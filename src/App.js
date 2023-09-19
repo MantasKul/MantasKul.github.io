@@ -18,7 +18,7 @@ function App() {
   return (
     <Fragment>
       <ThemeContext.Provider val={{ theme, toggleTheme }}>
-        <div className= "App" id={ theme }>
+        <div data-bs-theme={ theme }>
           <Navbar themeToggle={toggleTheme} theme={theme}/>
 
 
