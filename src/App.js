@@ -18,9 +18,11 @@ function App() {
   return (
     <Fragment>
       <ThemeContext.Provider val={{ theme, toggleTheme }}>
-        <div className= "app" id={ theme } data-bs-theme={ theme }>
+        <div className="navbar" id={ theme } data-bs-theme={ theme } style={{color: "red"}}>
           <Navbar themeToggle={toggleTheme} theme={theme}/>
+        </div>
 
+        <div className="main-block" id={ theme }>
           <Routes>
             <Route exact path="/" element={<Home />} />
             <Route exact path="/about" element={<About />} />

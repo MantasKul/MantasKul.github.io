@@ -1,0 +1,36 @@
+nav {
+    width: 100%;
+    top: 0;
+    position: fixed;
+    text-align: center;
+}
+#light nav {
+    background-color: #f3ebf6;
+    color: black;
+  }
+    
+#dark nav {
+    background-color: #46045e;
+    color: pink;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+li {
+    display: inline;
+    float: left;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+#light li {
+    color: black;
+}
+
+#dark li {
+    color: pink;
+}

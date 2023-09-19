@@ -7,19 +7,22 @@ import './Navbar.css';
 export const Navbar = ({themeToggle, theme}) => {
     return (
         <nav>
-                    <ul>
-                        <li>
-                            <Link to="/">Home</Link>
-                        </li>
-                        <li>
-                            <Link to="/about">About</Link>
-                        </li>                    
-                        <li>
-                            <div className="switch">
-                                <Switch onChange={ themeToggle } checked={ theme === "dark" } offColor="#bb8fce" onColor="#000000" uncheckedIcon="" checkedIcon=""/>
-                            </div>
-                        </li>
-                    </ul>
+            <ul>
+                <Link to="/">
+                    <li>
+                        Home
+                    </li>
+                </Link>
+
+                <Link to="/about">
+                    <li>About</li>
+
+                </Link>   
+                           
+                <li>
+                    <Switch onChange={ themeToggle } checked={ theme === "dark" } offColor="#bb8fce" onColor="#000000" uncheckedIcon="" checkedIcon=""/>
+                </li>
+            </ul>
         </nav>
     );
 }
