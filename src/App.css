@@ -14,18 +14,23 @@ h2 {
     flex-direction: row;
 }
 
+/*.app {
+  border: 5px solid black;
+}
+
 #light {
-    background-color: #f3ebf6;
-  }
+  background-color: #f3ebf6;
+  overflow: auto;
+}
   
-  #dark {
-    background-color: #46045e;
-  }
+#dark {
+  background-color: #46045e;
+}
   
-  #light .text-main {
-    color: black;
-  }
+#light .text-main {
+  color: black;
+}
   
-  #dark .text-main {
-    color: pink;
-  }
+#dark .text-main {
+  color: pink;
+}*/

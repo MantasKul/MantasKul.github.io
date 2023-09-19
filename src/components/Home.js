@@ -4,7 +4,7 @@ import { TypeAnimation } from 'react-type-animation';
 export const Home = () => {
     return (
         <Fragment>
-            <div className="text-main">
+            <div class="container-sm">
                 <h1>Hello</h1>
                 <h2>My name is&nbsp;
                     <TypeAnimation 

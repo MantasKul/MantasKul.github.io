@@ -18,10 +18,8 @@ function App() {
   return (
     <Fragment>
       <ThemeContext.Provider val={{ theme, toggleTheme }}>
-        <div className= "App" id={ theme }>
+        <div className= "app" id={ theme } data-bs-theme={ theme }>
           <Navbar themeToggle={toggleTheme} theme={theme}/>
-
-
 
           <Routes>
             <Route exact path="/" element={<Home />} />
@@ -34,9 +32,3 @@ function App() {
 }
 
 export default App;
-
-/*
-          <div className="switch">
-            <Switch onChange={ toggleTheme } checked={ theme === "dark" } offColor="#bb8fce" onColor="#000000" uncheckedIcon="" checkedIcon=""/>
-          </div>
-          */
