@@ -1,3 +1,7 @@
+.navbar {
+    position: absolute;
+}
+
 nav {
     width: 100%;
     top: 0;

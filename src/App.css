@@ -1,9 +1,13 @@
+.main-block {
+    height: 100vh;
+}
+
 h1 {
+    padding-top: 30vh;
     text-align: center;
     align-items: center;
     justify-content: center;
     display: flex;
-    margin-top: 30vh;
     flex-direction: row;
 }
 h2 {
@@ -14,12 +18,12 @@ h2 {
     flex-direction: row;
 }
 
-#light .text-main {
+#light {
     background-color: #f3ebf6;
     color: black;
   }
     
-  #dark .text-main {
+#dark {
     background-color: #46045e;
     color: pink;
   }
