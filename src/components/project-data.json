@@ -1,0 +1,18 @@
+[
+    {
+        "imgSrc": "./GridLevel.png",
+        "imgAlt": "FPS Shooter",
+        "title": "FPS with random levels",
+        "description": "First Person Shooter with Procedurally Generated Levels",
+        "buttonText": "Git Source",
+        "link": "https://github.com/MantasKul/ProcedurallyGeneratedFPS"
+    },
+    {
+        "imgSrc": "noimg",
+        "imgAlt": "Second project",
+        "title": "Test Card",
+        "description": "TESTING",
+        "buttonText": "Git Source",
+        "link": "nope"
+    }
+]

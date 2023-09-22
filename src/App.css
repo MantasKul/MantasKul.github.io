@@ -1,8 +1,13 @@
 .main-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 100vh;
 }
-
-h1 {
+h1, h2 {
+    text-align: center;
+}
+/*h1 {
     padding-top: 30vh;
     text-align: center;
     align-items: center;
@@ -16,14 +21,14 @@ h2 {
     justify-content: center;
     display: flex;
     flex-direction: row;
-}
+}*/
 
 #light {
     background-color: #f3ebf6;
     color: black;
-  }
+}
     
 #dark {
     background-color: #46045e;
     color: pink;
-  }
+}

@@ -9,12 +9,12 @@ nav {
     text-align: center;
 }
 #light nav {
-    background-color: #f3ebf6;
+    background-color: #CBC3E3;
     color: black;
   }
     
 #dark nav {
-    background-color: #46045e;
+    background-color: #280336;
     color: pink;
 }
 

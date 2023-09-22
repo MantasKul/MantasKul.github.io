@@ -1,0 +1,41 @@
+.card-container {
+    width: 15rem;
+    border-radius: 1rem;  
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem;
+    height: fit-content;
+}
+
+#light .card-container {
+    background-color: #CBC3E3;
+    box-shadow: 0px 10px 8px #999;
+}
+
+#dark .card-container {
+    background-color: #280336;
+    box-shadow: 0px 10px 8px #2f0946;
+}
+
+.card-img {
+    width: 100%;
+    border-radius: 1rem 1rem 0 0;
+}
+.card-title {
+    font-weight: bold;
+}
+.card-title, .card-description  {
+    margin: 0.5rem 5%;
+}
+
+.card-btn {
+    text-align: center;
+    width: 90%;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    margin: 0.5rem;
+}
+
