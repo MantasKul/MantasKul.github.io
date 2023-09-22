@@ -1,0 +1,8 @@
+.project-container {
+    display: flex;
+    overflow: auto;
+    width: 70%;
+    height: 80%;
+    align-items: center;
+    justify-content: center;
+}

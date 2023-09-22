@@ -11,7 +11,7 @@ import { Navbar } from './components/Navbar';
 export const ThemeContext = createContext(null);
 
 function App() {
-  const [theme, setTheme] = useState("light")
+  const [theme, setTheme] = useState("dark")
 
   const toggleTheme = () => {
     setTheme((current) => (current === "light" ? "dark" : "light"))

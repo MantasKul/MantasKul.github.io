@@ -1,18 +1,38 @@
 [
     {
-        "imgSrc": "./GridLevel.png",
+        "imgSrc": "./project-images/GridLevel.png",
         "imgAlt": "FPS Shooter",
         "title": "FPS with random levels",
-        "description": "First Person Shooter with Procedurally Generated Levels",
+        "description": "First Person Shooter with Procedurally Generated Levels made on Unity. Rooms are generated in a grid using custom level generator. Some rooms are using Perlin Noise to generate obstacles.",
         "buttonText": "Git Source",
         "link": "https://github.com/MantasKul/ProcedurallyGeneratedFPS"
     },
     {
-        "imgSrc": "noimg",
-        "imgAlt": "Second project",
-        "title": "Test Card",
-        "description": "TESTING",
+        "title": "Login/Register Page",
+        "description": "Simple login/register page written using Ruby on Rails. You can also change password when logged in, 'forgot password' which will generate token that can be used to change password as well.",
         "buttonText": "Git Source",
-        "link": "nope"
+        "link": "https://github.com/MantasKul/RubyOnRails"
+    },
+    {
+        "title": "Shipment/Discount calculator",
+        "description": "Written with Java. Given a list of dates, sizes, and providers of shipment a price with a discount will be calculated according to chosen rules. Rules and more info can be found in the GitHub repository.",
+        "buttonText": "Git Source",
+        "link": "https://github.com/MantasKul/ShipmentPriceCalculator"
+    },
+    {
+        "imgSrc": "./project-images/SortAlgorithmVisualizer.png",
+        "imgAlt": "Sort Visualizer",
+        "title": "Sorting Algorithm Visualizer",
+        "description": "Written using Java and using JavaFX for UI. Visualizes sorting one of three implemented sorting algorithms. Change sample size, sorting speed, pause/resume sorting.",
+        "buttonText": "Git Source",
+        "link": "https://github.com/MantasKul/SortAlgorithmVisualizer"
+    },
+    {
+        "imgSrc": "./project-images/ConnectDots.png",
+        "imgAlt": "Connect Dots",
+        "title": "Connect Dots Mobile Game",
+        "description": "Mobile game made on Unity. Press on the dots in the correct order, connect them all!",
+        "buttonText": "Git Source",
+        "link": "https://github.com/MantasKul/ConnectDots"
     }
 ]

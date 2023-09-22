@@ -13,6 +13,7 @@ export const Home = () => {
                         speed={{type: 'keyStrokeDelayInMs', value: 100}}
                     />
                 </h2>
+                <p><a href="mailto:m.kulikauskas01@gmail.com"><img src=""/></a></p>
             </div>
         </Fragment>
     );
